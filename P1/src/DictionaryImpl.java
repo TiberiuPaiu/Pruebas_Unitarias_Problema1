@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class DictionaryImpl implements Dictionary {
 
-    private Map<String, String> map = new HashMap<String, String>();
+    public Map<String, String> map = new HashMap<String, String>();
     @Override
     public void defineWord(String word, String definition) {
 
